@@ -9,6 +9,7 @@ pipeline {
       steps {
         sh 'echo "hello" name'
         echo 'jenkins'
+        sleep 3
       }
     }
   }
